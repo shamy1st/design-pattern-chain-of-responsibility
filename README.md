@@ -6,7 +6,7 @@ You have a **WebServer** and you want to handle **HttpRequest** in a pipeline of
 
 **Two Issues:**
 1. **WebServer** is tightly coopled with **Authenticator**, **Logger**, **Compressor**. (because of **new** keywords)
-2. Adding, disabling, reordering any step of this **pipeline** need to come back to **WebServer** class and hardcoded this steps.
+2. Adding, disabling, reordering any step of this **pipeline** need to hardcode it in **WebServer**.
 
 ---
 
