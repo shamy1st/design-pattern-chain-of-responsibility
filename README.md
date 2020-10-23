@@ -1,4 +1,4 @@
-## Chain of Responsibility Design Pattern (Java Implementation)
+## Chain of Responsibility Design Pattern (Java)
 
 **Chain of Responsibility** build a pipeline of processing objects for a request.
 ### Problem: 
