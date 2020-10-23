@@ -1,6 +1,6 @@
 ## Chain of Responsibility Design Pattern (Java Implementation)
 
-**Chain of Responsibility** design pattern build a pipeline of processing objects for a request.
+**Chain of Responsibility** build a pipeline of processing objects for a request.
 ### Problem: 
 You have a **WebServer** and you want to handle **HttpRequest** in a pipeline of objects handlers.
 
