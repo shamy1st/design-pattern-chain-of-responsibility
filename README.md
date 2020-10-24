@@ -1,6 +1,6 @@
 ## Chain of Responsibility Design Pattern (Java)
-
 **Chain of Responsibility** build a pipeline of processing objects for a request.
+![](https://github.com/shamy1st/design-pattern-chain-of-responsibility/blob/main/uml.png)
 ### Problem: 
 You have a **WebServer** and you want to handle **HttpRequest** in a pipeline of objects handlers.
 
@@ -8,7 +8,7 @@ You have a **WebServer** and you want to handle **HttpRequest** in a pipeline of
 1. **WebServer** is tightly coopled with **Authenticator**, **Logger**, **Compressor**. (because of **new** keywords)
 2. Adding, disabling, reordering any step of this **pipeline** need to hardcode it in **WebServer**.
 
----
+**
 
     public class WebServer {
         public void handle(HttpRequest request) {
@@ -62,4 +62,4 @@ You have a **WebServer** and you want to handle **HttpRequest** in a pipeline of
         }
     }
 ### Solution:
-![](https://github.com/shamy1st/design-pattern-chain-of-responsibility-java/blob/main/chain-of-responsibility-solution-uml.png)
+![](https://github.com/shamy1st/design-pattern-chain-of-responsibility/blob/main/uml-solution.png)
